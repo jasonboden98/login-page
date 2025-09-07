@@ -7,17 +7,23 @@ body, html {
     background-color: #f0f0f0;
 }
 #startLogin {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.395);
     width: 595px;
     height: 187px;
     border-radius: 10px;
+    font-size: 40px;
 }
 
 #loginBox {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.341);
     padding: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+}
+
+.loginHead {
+    font-size: 80px;
+    font-weight: 80px;
 }
 
 .hidden {
