@@ -25,7 +25,7 @@ document.getElementById('submitLogin').addEventListener('click', () => {
     const pass = document.getElementById('password').value;
 
     if (user && pass) {
-        alert('logging in as ${user}');
+        alert(`logging in as ${user}`);
     }
     else {
         alert('Please fill in fields');
