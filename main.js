@@ -16,7 +16,7 @@ const loginBox = document.getElementById('loginBox');
 
 startButton.addEventListener('click', () => {
     startButton.classList.add('hidden');
-    loginBox.classList.remove('hidden');
+    loginBox.classList.add('visable');
 });
 
 //handle form submission
